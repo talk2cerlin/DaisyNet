@@ -141,7 +141,6 @@
 				D64291121F8CD40900B1CB61 /* Frameworks */,
 				D64291131F8CD40900B1CB61 /* Resources */,
 				55CB6B018E244431EFDD3B2C /* [CP] Embed Pods Frameworks */,
-				80FAB37A92521C5550AC06C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,21 +237,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaisyNet/Pods-DaisyNet-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		80FAB37A92521C5550AC06C3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaisyNet/Pods-DaisyNet-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
