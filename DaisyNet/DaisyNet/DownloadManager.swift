@@ -45,6 +45,7 @@ class DownloadManager {
         task?.downloadRequest?.cancel()
         task?.cancelCompletion = {
             self.downloadTasks.removeValue(forKey: key)
+            NotificationCenter.default.post(name: Notification.Name("DaisyDownloadCancelled"), object: task?.downloadRequest?.request?.url)
         }
     }
 
